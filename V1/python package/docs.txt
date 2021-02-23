@@ -1,0 +1,32 @@
+# Encrypt / Decrypt file
+def scramble_file(
+    key="mCrypt",           # Key for encryption / decryption
+    import_file="FILE.mCrypt",  # file to encrypt / decrypt
+    export_file="FILE.mCrypt",  # output file
+    large_file=True,        # Algorythm type
+    motd=False              # Time to Encrypt / Decrypt
+    ):
+
+
+# Encrypt / Decrypt string
+def scramble_str(
+    key="mCrypt",           # Key
+    data="Lorem ipsum dolor sit amet,", # String to encrypt / decrypt
+    large_str=False         # Algorythm type
+    motd=False,             # Time to Encrypt / Decrypt
+    ):
+
+
+# Can check how long it takes to crack your password
+def calculate_security(
+    key="mCypt",            # Key
+    hashespersec=1000000    # Hashpower
+    ):
+
+
+# Recommendet for small Strings to help againt Brute-Force
+def secure(
+    data="Lorem Ipsum",     # Data
+    buffer=512,             # How many chars to add
+    custom_buffer=None      # custom letters
+    ):
